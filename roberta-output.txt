@@ -1,0 +1,1873 @@
+True
+0
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 0/80: Security True 5e-05
+..................................................
+Train loss 0.6583430618047714 Train accuracy 0.58203125
+Val loss 0.5386082589626312 Val F-1 0.9659932659932661
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 0/80: Security True 5e-05
+..................................................
+Train loss 0.24446764262393117 Train accuracy 0.9375
+Val loss 0.17750022016465664 Val F-1 0.9611083181608195
+
+Epoch 3/4
+----------
+Combination 0/80: Security True 5e-05
+..................................................
+Train loss 0.0839631011185702 Train accuracy 0.97265625
+Val loss 0.18929449936375023 Val F-1 0.9632672125475724
+
+Epoch 4/4
+----------
+Combination 0/80: Security True 5e-05
+..................................................
+Train loss 0.044945951536647044 Train accuracy 0.9921875
+Val loss 0.15998917257413267 Val F-1 0.9683774834437086
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 1/80: Security True 3e-05
+..................................................
+Train loss 0.7021859139204025 Train accuracy 0.5625
+Val loss 0.6791378211975098 Val F-1 0.9528106281677162
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 1/80: Security True 3e-05
+..................................................
+Train loss 0.6741081923246384 Train accuracy 0.61328125
+Val loss 0.6619643783569336 Val F-1 0.7959065660752777
+
+Epoch 3/4
+----------
+Combination 1/80: Security True 3e-05
+..................................................
+Train loss 0.3695082347840071 Train accuracy 0.921875
+Val loss 0.2672850984334946 Val F-1 0.9314986917844061
+
+Epoch 4/4
+----------
+Combination 1/80: Security True 3e-05
+..................................................
+Train loss 0.14418215560726821 Train accuracy 0.96484375
+Val loss 0.0796815024316311 Val F-1 0.9861910994764398
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 2/80: Security True 1e-05
+..................................................
+Train loss 0.6944179348647594 Train accuracy 0.50390625
+Val loss 0.6777507066726685 Val F-1 0.9558110403397029
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 2/80: Security True 1e-05
+..................................................
+Train loss 0.6930102556943893 Train accuracy 0.5078125
+Val loss 0.6704265332221985 Val F-1 0.9553433250694913
+
+Epoch 3/4
+----------
+Combination 2/80: Security True 1e-05
+..................................................
+Train loss 0.6825281567871571 Train accuracy 0.6171875
+Val loss 0.6772105193138123 Val F-1 0.897920907240477
+
+Epoch 4/4
+----------
+Combination 2/80: Security True 1e-05
+..................................................
+Train loss 0.6761896163225174 Train accuracy 0.640625
+Val loss 0.6835666275024415 Val F-1 0.7670703125000001
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 3/80: Security True 8e-06
+..................................................
+Train loss 0.696689210832119 Train accuracy 0.48828125
+Val loss 0.7234391903877259 Val F-1 0.002710843373493976
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 3/80: Security True 8e-06
+..................................................
+Train loss 0.6912223249673843 Train accuracy 0.484375
+Val loss 0.7074944186210632 Val F-1 0.22041248016922263
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 3/4
+----------
+Combination 3/80: Security True 8e-06
+..................................................
+Train loss 0.6848198771476746 Train accuracy 0.6015625
+Val loss 0.6889372682571411 Val F-1 0.6748960498960499
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 4/4
+----------
+Combination 3/80: Security True 8e-06
+..................................................
+Train loss 0.6804167069494724 Train accuracy 0.6171875
+Val loss 0.6945186924934387 Val F-1 0.5869185366993921
+
+{'aspect': ['Security'], 'learn_rate': [3e-05], 'sample strategy': [True], 'best_precision': [0.982273931311655], 'best recall': [0.9776785714285714], 'best F-1': [0.9792744492656876]}
+              precision    recall  f1-score   support
+
+           0     0.9953    0.9814    0.9883       431
+           1     0.6522    0.8824    0.7500        17
+
+    accuracy                         0.9777       448
+   macro avg     0.8237    0.9319    0.8692       448
+weighted avg     0.9823    0.9777    0.9793       448
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 4/80: Security False 5e-05
+..................................................
+Train loss 0.17756669762393198 Train accuracy 0.9629934210526315
+Val loss 0.16566862754523753 Val F-1 0.9441082802547771
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 4/80: Security False 5e-05
+..................................................
+Train loss 0.1583162428721328 Train accuracy 0.9646381578947368
+Val loss 0.16239077165722848 Val F-1 0.9441082802547771
+
+Epoch 3/4
+----------
+Combination 4/80: Security False 5e-05
+..................................................
+Train loss 0.1606207545029751 Train accuracy 0.9643640350877193
+Val loss 0.16234345078468324 Val F-1 0.9441082802547771
+
+Epoch 4/4
+----------
+Combination 4/80: Security False 5e-05
+..................................................
+Train loss 0.15769417954837545 Train accuracy 0.9640899122807017
+Val loss 0.16420759715139865 Val F-1 0.9441082802547771
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 5/80: Security False 3e-05
+..................................................
+Train loss 0.13366953058376616 Train accuracy 0.9682017543859649
+Val loss 0.045344544621184465 Val F-1 0.985
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 5/80: Security False 3e-05
+..................................................
+Train loss 0.06251720142532385 Train accuracy 0.9832785087719298
+Val loss 0.034937437395565214 Val F-1 0.9832612302951286
+
+Epoch 3/4
+----------
+Combination 5/80: Security False 3e-05
+..................................................
+Train loss 0.044629671865039744 Train accuracy 0.987390350877193
+Val loss 0.03297126572113484 Val F-1 0.9844424567680382
+
+Epoch 4/4
+----------
+Combination 5/80: Security False 3e-05
+..................................................
+Train loss 0.026684949622696814 Train accuracy 0.9923245614035088
+Val loss 0.023572944523766636 Val F-1 0.9928262415550551
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 6/80: Security False 1e-05
+..................................................
+Train loss 0.17275753168934516 Train accuracy 0.9580592105263158
+Val loss 0.03330160637851805 Val F-1 0.9880804563949832
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 6/80: Security False 1e-05
+..................................................
+Train loss 0.06205510578461384 Train accuracy 0.981359649122807
+Val loss 0.027116808227729054 Val F-1 0.992375553468402
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 3/4
+----------
+Combination 6/80: Security False 1e-05
+..................................................
+Train loss 0.0429070356742095 Train accuracy 0.9882127192982456
+Val loss 0.023375668808585034 Val F-1 0.995
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 4/4
+----------
+Combination 6/80: Security False 1e-05
+..................................................
+Train loss 0.030735519117642024 Train accuracy 0.9920504385964912
+Val loss 0.017882274268195032 Val F-1 0.995
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 7/80: Security False 8e-06
+..................................................
+Train loss 0.15516078766494615 Train accuracy 0.965734649122807
+Val loss 0.04244868301320821 Val F-1 0.9920978870202675
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 7/80: Security False 8e-06
+..................................................
+Train loss 0.062194168502556796 Train accuracy 0.9841008771929824
+Val loss 0.013620705015491695 Val F-1 0.9926160912789967
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 3/4
+----------
+Combination 7/80: Security False 8e-06
+..................................................
+Train loss 0.04836412330960708 Train accuracy 0.9865679824561403
+Val loss 0.020805600704625248 Val F-1 0.9926160912789967
+
+Epoch 4/4
+----------
+Combination 7/80: Security False 8e-06
+..................................................
+Train loss 0.033489499317447394 Train accuracy 0.9917763157894737
+Val loss 0.02622303643845953 Val F-1 0.9926160912789967
+
+{'aspect': ['Security'], 'learn_rate': [3e-05], 'sample strategy': [False], 'best_precision': [0.9889672755570118], 'best recall': [0.9888392857142857], 'best F-1': [0.9879093371628571]}
+              precision    recall  f1-score   support
+
+           0     0.9885    1.0000    0.9942       431
+           1     1.0000    0.7059    0.8276        17
+
+    accuracy                         0.9888       448
+   macro avg     0.9943    0.8529    0.9109       448
+weighted avg     0.9890    0.9888    0.9879       448
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 8/80: Security True 5e-05
+..................................................
+Train loss 0.6656913533806801 Train accuracy 0.58984375
+Val loss 0.5607213234901428 Val F-1 0.9383783783783782
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 8/80: Security True 5e-05
+..................................................
+Train loss 0.226616874395404 Train accuracy 0.94140625
+Val loss 0.22381447602063417 Val F-1 0.9495154403733491
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 3/4
+----------
+Combination 8/80: Security True 5e-05
+..................................................
+Train loss 0.09408810193417594 Train accuracy 0.97265625
+Val loss 0.1140101578971371 Val F-1 0.9796470588235293
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 4/4
+----------
+Combination 8/80: Security True 5e-05
+..................................................
+Train loss 0.06084033533988986 Train accuracy 0.98828125
+Val loss 0.19425174972042442 Val F-1 0.9665321185561065
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 9/80: Security True 3e-05
+..................................................
+Train loss 0.6890303567051888 Train accuracy 0.51171875
+Val loss 0.8192408871650696 Val F-1 0.002710843373493976
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 9/80: Security True 3e-05
+..................................................
+Train loss 0.5992208179086447 Train accuracy 0.6953125
+Val loss 0.45541175365448 Val F-1 0.9045137279142843
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 3/4
+----------
+Combination 9/80: Security True 3e-05
+..................................................
+Train loss 0.23440655367448926 Train accuracy 0.94921875
+Val loss 0.2435374391078949 Val F-1 0.9326042486231313
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 4/4
+----------
+Combination 9/80: Security True 3e-05
+..................................................
+Train loss 0.09799273393582553 Train accuracy 0.97265625
+Val loss 0.15116377174854279 Val F-1 0.9605542369528977
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 10/80: Security True 1e-05
+..................................................
+Train loss 0.6941294856369495 Train accuracy 0.4921875
+Val loss 0.6606072521209717 Val F-1 0.9441082802547771
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 10/80: Security True 1e-05
+..................................................
+Train loss 0.6838745586574078 Train accuracy 0.58984375
+Val loss 0.6692319202423096 Val F-1 0.9160721256622364
+
+Epoch 3/4
+----------
+Combination 10/80: Security True 1e-05
+..................................................
+Train loss 0.677649449557066 Train accuracy 0.66796875
+Val loss 0.6804413104057312 Val F-1 0.7204311140408701
+
+Epoch 4/4
+----------
+Combination 10/80: Security True 1e-05
+..................................................
+Train loss 0.6621520966291428 Train accuracy 0.68359375
+Val loss 0.6830708265304566 Val F-1 0.677037050614659
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 11/80: Security True 8e-06
+..................................................
+Train loss 0.7039747983217239 Train accuracy 0.50390625
+Val loss 0.6180214309692382 Val F-1 0.9441082802547771
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 11/80: Security True 8e-06
+..................................................
+Train loss 0.6926171109080315 Train accuracy 0.5546875
+Val loss 0.657019522190094 Val F-1 0.9441082802547771
+
+Epoch 3/4
+----------
+Combination 11/80: Security True 8e-06
+..................................................
+Train loss 0.681195430457592 Train accuracy 0.5859375
+Val loss 0.6697971844673156 Val F-1 0.9596237025611362
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 4/4
+----------
+Combination 11/80: Security True 8e-06
+..................................................
+Train loss 0.6746016554534435 Train accuracy 0.69140625
+Val loss 0.6791962504386901 Val F-1 0.8169869352204683
+
+{'aspect': ['Security'], 'learn_rate': [5e-05], 'sample strategy': [True], 'best_precision': [0.9733913728440927], 'best recall': [0.9575892857142857], 'best F-1': [0.9633913416522112]}
+              precision    recall  f1-score   support
+
+           0     0.9928    0.9630    0.9777       432
+           1     0.4483    0.8125    0.5778        16
+
+    accuracy                         0.9576       448
+   macro avg     0.7206    0.8877    0.7777       448
+weighted avg     0.9734    0.9576    0.9634       448
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 12/80: Security False 5e-05
+..................................................
+Train loss 0.12305397384650923 Train accuracy 0.9649122807017544
+Val loss 0.10838909426704049 Val F-1 0.9792566090240509
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 12/80: Security False 5e-05
+..................................................
+Train loss 0.058669452839239966 Train accuracy 0.9835526315789473
+Val loss 0.03506172562949359 Val F-1 0.985843188450315
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 3/4
+----------
+Combination 12/80: Security False 5e-05
+..................................................
+Train loss 0.03492490826542244 Train accuracy 0.9915021929824561
+Val loss 0.11995907975244335 Val F-1 0.9753225806451614
+
+Epoch 4/4
+----------
+Combination 12/80: Security False 5e-05
+..................................................
+Train loss 0.0326418966920883 Train accuracy 0.9912280701754386
+Val loss 0.04260912058409303 Val F-1 0.985
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 13/80: Security False 3e-05
+..................................................
+Train loss 0.13270246780047545 Train accuracy 0.9684758771929824
+Val loss 0.06193319484125823 Val F-1 0.98544921875
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 13/80: Security False 3e-05
+..................................................
+Train loss 0.058033803445205354 Train accuracy 0.9835526315789473
+Val loss 0.0461193614883814 Val F-1 0.9872925891140032
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 3/4
+----------
+Combination 13/80: Security False 3e-05
+..................................................
+Train loss 0.03710183128969858 Train accuracy 0.9895833333333334
+Val loss 0.05344296650961042 Val F-1 0.9836928104575163
+
+Epoch 4/4
+----------
+Combination 13/80: Security False 3e-05
+..................................................
+Train loss 0.020439808516433306 Train accuracy 0.993421052631579
+Val loss 0.060157705996534784 Val F-1 0.9876934854649942
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 14/80: Security False 1e-05
+..................................................
+Train loss 0.18962795617009856 Train accuracy 0.9347587719298246
+Val loss 0.05301242112182081 Val F-1 0.9793116210214657
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 14/80: Security False 1e-05
+..................................................
+Train loss 0.06704197743940249 Train accuracy 0.9824561403508771
+Val loss 0.054005326128099114 Val F-1 0.9880437359250921
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 3/4
+----------
+Combination 14/80: Security False 1e-05
+..................................................
+Train loss 0.03776652056937261 Train accuracy 0.9912280701754386
+Val loss 0.06836211890447885 Val F-1 0.9877233960998515
+
+Epoch 4/4
+----------
+Combination 14/80: Security False 1e-05
+..................................................
+Train loss 0.03121244320502962 Train accuracy 0.9920504385964912
+Val loss 0.06689717514789663 Val F-1 0.9876934854649942
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 15/80: Security False 8e-06
+..................................................
+Train loss 0.18953362413837263 Train accuracy 0.9572368421052632
+Val loss 0.07277976023033261 Val F-1 0.9441082802547771
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 15/80: Security False 8e-06
+..................................................
+Train loss 0.06524726991560065 Train accuracy 0.9794407894736842
+Val loss 0.05047967912862077 Val F-1 0.9840751301760475
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 3/4
+----------
+Combination 15/80: Security False 8e-06
+..................................................
+Train loss 0.039360672056270564 Train accuracy 0.9884868421052632
+Val loss 0.0301106369914487 Val F-1 0.9905621256335432
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 4/4
+----------
+Combination 15/80: Security False 8e-06
+..................................................
+Train loss 0.03145210273827328 Train accuracy 0.9925986842105263
+Val loss 0.027590600354596973 Val F-1 0.9951497395833334
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+{'aspect': ['Security'], 'learn_rate': [1e-05], 'sample strategy': [False], 'best_precision': [0.9839771412037036], 'best recall': [0.984375], 'best F-1': [0.9841473102988166]}
+              precision    recall  f1-score   support
+
+           0     0.9907    0.9930    0.9919       431
+           1     0.8125    0.7647    0.7879        17
+
+    accuracy                         0.9844       448
+   macro avg     0.9016    0.8789    0.8899       448
+weighted avg     0.9840    0.9844    0.9841       448
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 16/80: Security True 5e-05
+..................................................
+Train loss 0.6945464052259922 Train accuracy 0.52734375
+Val loss 0.6072762703895569 Val F-1 0.9637961084817068
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 16/80: Security True 5e-05
+..................................................
+Train loss 0.4168617920950055 Train accuracy 0.83203125
+Val loss 0.16764127105474472 Val F-1 0.9506558877364247
+
+Epoch 3/4
+----------
+Combination 16/80: Security True 5e-05
+..................................................
+Train loss 0.155386061524041 Train accuracy 0.953125
+Val loss 0.09712703965604305 Val F-1 0.9775003453515678
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 4/4
+----------
+Combination 16/80: Security True 5e-05
+..................................................
+Train loss 0.06797193983220495 Train accuracy 0.9765625
+Val loss 0.1401881855353713 Val F-1 0.9683774834437086
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 17/80: Security True 3e-05
+..................................................
+Train loss 0.700470682233572 Train accuracy 0.4453125
+Val loss 0.7468160057067871 Val F-1 0.0023671497584541066
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 17/80: Security True 3e-05
+..................................................
+Train loss 0.6169940363615751 Train accuracy 0.71875
+Val loss 0.533041639328003 Val F-1 0.9145412333171669
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 3/4
+----------
+Combination 17/80: Security True 3e-05
+..................................................
+Train loss 0.24247133638709784 Train accuracy 0.94140625
+Val loss 0.11337027758359909 Val F-1 0.9755104619427878
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 4/4
+----------
+Combination 17/80: Security True 3e-05
+..................................................
+Train loss 0.12762043334078044 Train accuracy 0.96484375
+Val loss 0.11271189719438553 Val F-1 0.9761794534856295
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 18/80: Security True 1e-05
+..................................................
+Train loss 0.69930499792099 Train accuracy 0.44921875
+Val loss 0.6540825414657593 Val F-1 0.9441082802547771
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 18/80: Security True 1e-05
+..................................................
+Train loss 0.6920191384851933 Train accuracy 0.5234375
+Val loss 0.663591673374176 Val F-1 0.9441082802547771
+
+Epoch 3/4
+----------
+Combination 18/80: Security True 1e-05
+..................................................
+Train loss 0.683008186519146 Train accuracy 0.6328125
+Val loss 0.6565400290489197 Val F-1 0.9602301790281331
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 4/4
+----------
+Combination 18/80: Security True 1e-05
+..................................................
+Train loss 0.6780141852796078 Train accuracy 0.65234375
+Val loss 0.6586434841156006 Val F-1 0.9830123860715121
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 19/80: Security True 8e-06
+..................................................
+Train loss 0.7120224125683308 Train accuracy 0.5
+Val loss 0.591916823387146 Val F-1 0.9478117048346055
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 19/80: Security True 8e-06
+..................................................
+Train loss 0.6952554658055305 Train accuracy 0.5078125
+Val loss 0.6191757249832154 Val F-1 0.9441082802547771
+
+Epoch 3/4
+----------
+Combination 19/80: Security True 8e-06
+..................................................
+Train loss 0.6846923008561134 Train accuracy 0.5625
+Val loss 0.6393765044212342 Val F-1 0.9478117048346055
+
+Epoch 4/4
+----------
+Combination 19/80: Security True 8e-06
+..................................................
+Train loss 0.6825263537466526 Train accuracy 0.54296875
+Val loss 0.6368617010116577 Val F-1 0.9441082802547771
+
+{'aspect': ['Security'], 'learn_rate': [1e-05], 'sample strategy': [True], 'best_precision': [0.9728411938938255], 'best recall': [0.9553571428571429], 'best F-1': [0.9617829740591889]}
+              precision    recall  f1-score   support
+
+           0     0.9928    0.9606    0.9765       432
+           1     0.4333    0.8125    0.5652        16
+
+    accuracy                         0.9554       448
+   macro avg     0.7131    0.8866    0.7708       448
+weighted avg     0.9728    0.9554    0.9618       448
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 20/80: Security False 5e-05
+..................................................
+Train loss 0.17337909073511695 Train accuracy 0.9624451754385965
+Val loss 0.15995404735207558 Val F-1 0.9441082802547771
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 20/80: Security False 5e-05
+..................................................
+Train loss 0.16143223732758902 Train accuracy 0.9638157894736842
+Val loss 0.16536240153014659 Val F-1 0.9441082802547771
+
+Epoch 3/4
+----------
+Combination 20/80: Security False 5e-05
+..................................................
+Train loss 0.15938226842288777 Train accuracy 0.9640899122807017
+Val loss 0.15191478788852691 Val F-1 0.9478117048346055
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 4/4
+----------
+Combination 20/80: Security False 5e-05
+..................................................
+Train loss 0.15634934212849066 Train accuracy 0.9638157894736842
+Val loss 0.15187905997037887 Val F-1 0.9478117048346055
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 21/80: Security False 3e-05
+..................................................
+Train loss 0.0994713279572336 Train accuracy 0.9783442982456141
+Val loss 0.053164643477648495 Val F-1 0.9880437359250921
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 21/80: Security False 3e-05
+..................................................
+Train loss 0.047902971661083905 Train accuracy 0.9887609649122807
+Val loss 0.028110630884766577 Val F-1 0.9948279052553665
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 3/4
+----------
+Combination 21/80: Security False 3e-05
+..................................................
+Train loss 0.026758814263877485 Train accuracy 0.9942434210526315
+Val loss 0.024967957960325294 Val F-1 0.995
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 4/4
+----------
+Combination 21/80: Security False 3e-05
+..................................................
+Train loss 0.00776171054467181 Train accuracy 0.9967105263157895
+Val loss 0.01957218354335055 Val F-1 0.9974585178228007
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 22/80: Security False 1e-05
+..................................................
+Train loss 0.14589380775118785 Train accuracy 0.9695723684210527
+Val loss 0.051248457795009014 Val F-1 0.985
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 22/80: Security False 1e-05
+..................................................
+Train loss 0.04468309137768014 Train accuracy 0.9898574561403509
+Val loss 0.055484996180748564 Val F-1 0.9896558105107328
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 3/4
+----------
+Combination 22/80: Security False 1e-05
+..................................................
+Train loss 0.02916250894894913 Train accuracy 0.9942434210526315
+Val loss 0.03990727705182508 Val F-1 0.9872925891140032
+
+Epoch 4/4
+----------
+Combination 22/80: Security False 1e-05
+..................................................
+Train loss 0.022758429156837928 Train accuracy 0.9956140350877193
+Val loss 0.02793673610314727 Val F-1 0.99
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 23/80: Security False 8e-06
+..................................................
+Train loss 0.2063708889620836 Train accuracy 0.9109100877192983
+Val loss 0.04260270148515701 Val F-1 0.985
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 23/80: Security False 8e-06
+..................................................
+Train loss 0.049584601081860774 Train accuracy 0.9865679824561403
+Val loss 0.036956200709100814 Val F-1 0.9902994791666666
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 3/4
+----------
+Combination 23/80: Security False 8e-06
+..................................................
+Train loss 0.029187663520580123 Train accuracy 0.9928728070175439
+Val loss 0.0352665069361683 Val F-1 0.9926244465315981
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 4/4
+----------
+Combination 23/80: Security False 8e-06
+..................................................
+Train loss 0.02249356328837549 Train accuracy 0.9956140350877193
+Val loss 0.037712775382678955 Val F-1 0.9926160912789967
+
+{'aspect': ['Security'], 'learn_rate': [5e-05], 'sample strategy': [False], 'best_precision': [0.9298469387755102], 'best recall': [0.9642857142857143], 'best F-1': [0.9467532467532467]}
+              precision    recall  f1-score   support
+
+           0     0.9643    1.0000    0.9818       432
+           1     0.0000    0.0000    0.0000        16
+
+    accuracy                         0.9643       448
+   macro avg     0.4821    0.5000    0.4909       448
+weighted avg     0.9298    0.9643    0.9468       448
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 24/80: Security True 5e-05
+..................................................
+Train loss 0.6323939450085163 Train accuracy 0.65625
+Val loss 0.25166339814662936 Val F-1 0.9697229551451187
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 24/80: Security True 5e-05
+..................................................
+Train loss 0.18809399323072284 Train accuracy 0.9453125
+Val loss 0.3936008855700493 Val F-1 0.9145412333171669
+
+Epoch 3/4
+----------
+Combination 24/80: Security True 5e-05
+..................................................
+Train loss 0.07309544115560129 Train accuracy 0.984375
+Val loss 0.5361158619448543 Val F-1 0.8932193934796695
+
+Epoch 4/4
+----------
+Combination 24/80: Security True 5e-05
+..................................................
+Train loss 0.030604452316765673 Train accuracy 0.98828125
+Val loss 0.2183696890436113 Val F-1 0.9605542369528977
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 25/80: Security True 3e-05
+..................................................
+Train loss 0.6911766901612282 Train accuracy 0.55078125
+Val loss 0.697781400680542 Val F-1 0.514715399933621
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 25/80: Security True 3e-05
+..................................................
+Train loss 0.6730918399989605 Train accuracy 0.5703125
+Val loss 0.7444859170913696 Val F-1 0.3582497933030178
+
+Epoch 3/4
+----------
+Combination 25/80: Security True 3e-05
+..................................................
+Train loss 0.42639229260385036 Train accuracy 0.8984375
+Val loss 0.3190846437215805 Val F-1 0.9439816961561928
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 4/4
+----------
+Combination 25/80: Security True 3e-05
+..................................................
+Train loss 0.18461319850757718 Train accuracy 0.95703125
+Val loss 0.280013707280159 Val F-1 0.9302014652014651
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 26/80: Security True 1e-05
+..................................................
+Train loss 0.6917182728648186 Train accuracy 0.5234375
+Val loss 0.6780475902557374 Val F-1 0.9441082802547771
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 26/80: Security True 1e-05
+..................................................
+Train loss 0.689361996948719 Train accuracy 0.515625
+Val loss 0.6874073505401611 Val F-1 0.7746522053797595
+
+Epoch 3/4
+----------
+Combination 26/80: Security True 1e-05
+..................................................
+Train loss 0.6778829470276833 Train accuracy 0.640625
+Val loss 0.7085186100006103 Val F-1 0.30656215909308393
+
+Epoch 4/4
+----------
+Combination 26/80: Security True 1e-05
+..................................................
+Train loss 0.6768846474587917 Train accuracy 0.62109375
+Val loss 0.7115191054344178 Val F-1 0.32416173570019724
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 27/80: Security True 8e-06
+..................................................
+Train loss 0.7021791748702526 Train accuracy 0.5078125
+Val loss 0.5985818934440613 Val F-1 0.9515184243964423
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 27/80: Security True 8e-06
+..................................................
+Train loss 0.6975247114896774 Train accuracy 0.5
+Val loss 0.6239390659332276 Val F-1 0.9478117048346055
+
+Epoch 3/4
+----------
+Combination 27/80: Security True 8e-06
+..................................................
+Train loss 0.6848656311631203 Train accuracy 0.53515625
+Val loss 0.6356656575202941 Val F-1 0.9478117048346055
+
+Epoch 4/4
+----------
+Combination 27/80: Security True 8e-06
+..................................................
+Train loss 0.6884327195584774 Train accuracy 0.53125
+Val loss 0.6401549124717713 Val F-1 0.95
+
+{'aspect': ['Security'], 'learn_rate': [8e-06], 'sample strategy': [True], 'best_precision': [0.9341567681760203], 'best recall': [0.9665178571428571], 'best F-1': [0.9500618209826496]}
+              precision    recall  f1-score   support
+
+           0     0.9665    1.0000    0.9830       433
+           1     0.0000    0.0000    0.0000        15
+
+    accuracy                         0.9665       448
+   macro avg     0.4833    0.5000    0.4915       448
+weighted avg     0.9342    0.9665    0.9501       448
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 28/80: Security False 5e-05
+..................................................
+Train loss 0.15423449599837655 Train accuracy 0.9668311403508771
+Val loss 0.0801483037136495 Val F-1 0.98544921875
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 28/80: Security False 5e-05
+..................................................
+Train loss 0.07638422501469522 Train accuracy 0.9808114035087719
+Val loss 0.06468562383204698 Val F-1 0.9868298117004457
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 3/4
+----------
+Combination 28/80: Security False 5e-05
+..................................................
+Train loss 0.05678071390241058 Train accuracy 0.9882127192982456
+Val loss 0.04548906237818301 Val F-1 0.9836928104575163
+
+Epoch 4/4
+----------
+Combination 28/80: Security False 5e-05
+..................................................
+Train loss 0.05174123674320678 Train accuracy 0.9893092105263158
+Val loss 0.03655965241603553 Val F-1 0.9902994791666666
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 29/80: Security False 3e-05
+..................................................
+Train loss 0.14633656715261423 Train accuracy 0.9547697368421053
+Val loss 0.06502473562024534 Val F-1 0.9836928104575163
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 29/80: Security False 3e-05
+..................................................
+Train loss 0.050880427033182955 Train accuracy 0.9879385964912281
+Val loss 0.06783562376629561 Val F-1 0.981588132635253
+
+Epoch 3/4
+----------
+Combination 29/80: Security False 3e-05
+..................................................
+Train loss 0.035828570597611055 Train accuracy 0.9923245614035088
+Val loss 0.05942755893105641 Val F-1 0.9833126389529763
+
+Epoch 4/4
+----------
+Combination 29/80: Security False 3e-05
+..................................................
+Train loss 0.020498774366595234 Train accuracy 0.9947916666666666
+Val loss 0.0742924317100551 Val F-1 0.9832612302951286
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 30/80: Security False 1e-05
+..................................................
+Train loss 0.20118881460777566 Train accuracy 0.9380482456140351
+Val loss 0.05574368734844029 Val F-1 0.9536857749469214
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 30/80: Security False 1e-05
+..................................................
+Train loss 0.05193841502401292 Train accuracy 0.9857456140350878
+Val loss 0.04021147573366761 Val F-1 0.9877233960998515
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 3/4
+----------
+Combination 30/80: Security False 1e-05
+..................................................
+Train loss 0.03372064543854274 Train accuracy 0.9912280701754386
+Val loss 0.05771280473098159 Val F-1 0.9872766039001485
+
+Epoch 4/4
+----------
+Combination 30/80: Security False 1e-05
+..................................................
+Train loss 0.02712928767549895 Train accuracy 0.9947916666666666
+Val loss 0.06297422459931112 Val F-1 0.98544921875
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 31/80: Security False 8e-06
+..................................................
+Train loss 0.17123360070910534 Train accuracy 0.9640899122807017
+Val loss 0.05580840121023357 Val F-1 0.9775003453515678
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 31/80: Security False 8e-06
+..................................................
+Train loss 0.05013697040282607 Train accuracy 0.9882127192982456
+Val loss 0.06825588064501062 Val F-1 0.9836928104575163
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 3/4
+----------
+Combination 31/80: Security False 8e-06
+..................................................
+Train loss 0.03771215650965786 Train accuracy 0.9912280701754386
+Val loss 0.07117004299303517 Val F-1 0.9836928104575163
+
+Epoch 4/4
+----------
+Combination 31/80: Security False 8e-06
+..................................................
+Train loss 0.030566593362508637 Train accuracy 0.9931469298245614
+Val loss 0.06217613428947516 Val F-1 0.985843188450315
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+{'aspect': ['Security'], 'learn_rate': [5e-05], 'sample strategy': [False], 'best_precision': [0.9789377289377289], 'best recall': [0.9486607142857143], 'best F-1': [0.958693268681378]}
+              precision    recall  f1-score   support
+
+           0     1.0000    0.9468    0.9727       432
+           1     0.4103    1.0000    0.5818        16
+
+    accuracy                         0.9487       448
+   macro avg     0.7051    0.9734    0.7772       448
+weighted avg     0.9789    0.9487    0.9587       448
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 32/80: Security True 5e-05
+..................................................
+Train loss 0.6449744533747435 Train accuracy 0.63671875
+Val loss 0.43860182285308835 Val F-1 0.8691253081862631
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 32/80: Security True 5e-05
+..................................................
+Train loss 0.2371214502491057 Train accuracy 0.9140625
+Val loss 0.6496880728006363 Val F-1 0.8394269913895595
+
+Epoch 3/4
+----------
+Combination 32/80: Security True 5e-05
+..................................................
+Train loss 0.15561832636012696 Train accuracy 0.9609375
+Val loss 0.2245299337990582 Val F-1 0.9558257918552036
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 4/4
+----------
+Combination 32/80: Security True 5e-05
+..................................................
+Train loss 0.016612595150945708 Train accuracy 0.99609375
+Val loss 0.2774948858842254 Val F-1 0.9472603952681163
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 33/80: Security True 3e-05
+..................................................
+Train loss 0.6990170031785965 Train accuracy 0.4921875
+Val loss 0.721243577003479 Val F-1 0.06567539188479712
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 33/80: Security True 3e-05
+..................................................
+Train loss 0.6676113866269588 Train accuracy 0.5625
+Val loss 0.7235234832763672 Val F-1 0.5465654681139757
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 3/4
+----------
+Combination 33/80: Security True 3e-05
+..................................................
+Train loss 0.4559180196374655 Train accuracy 0.828125
+Val loss 0.5376477110385894 Val F-1 0.8274971297359357
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 4/4
+----------
+Combination 33/80: Security True 3e-05
+..................................................
+Train loss 0.21693801833316684 Train accuracy 0.9453125
+Val loss 0.2388558343052864 Val F-1 0.9472603952681163
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 34/80: Security True 1e-05
+..................................................
+Train loss 0.6977352127432823 Train accuracy 0.49609375
+Val loss 0.749001362323761 Val F-1 0.0023671497584541066
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 34/80: Security True 1e-05
+..................................................
+Train loss 0.6903039440512657 Train accuracy 0.55078125
+Val loss 0.7156958365440369 Val F-1 0.027423389618511575
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 3/4
+----------
+Combination 34/80: Security True 1e-05
+..................................................
+Train loss 0.6776363663375378 Train accuracy 0.56640625
+Val loss 0.7189000844955444 Val F-1 0.09337308730873088
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 4/4
+----------
+Combination 34/80: Security True 1e-05
+..................................................
+Train loss 0.666865274310112 Train accuracy 0.62890625
+Val loss 0.7113971328735351 Val F-1 0.27759265604477185
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 35/80: Security True 8e-06
+..................................................
+Train loss 0.70197793841362 Train accuracy 0.5
+Val loss 0.7823808240890503 Val F-1 0.0023671497584541066
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 35/80: Security True 8e-06
+..................................................
+Train loss 0.6929615028202534 Train accuracy 0.484375
+Val loss 0.7500556015968323 Val F-1 0.002710843373493976
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 3/4
+----------
+Combination 35/80: Security True 8e-06
+..................................................
+Train loss 0.6875889673829079 Train accuracy 0.53125
+Val loss 0.7463083291053771 Val F-1 0.002046004842615012
+
+Epoch 4/4
+----------
+Combination 35/80: Security True 8e-06
+..................................................
+Train loss 0.6806195005774498 Train accuracy 0.55078125
+Val loss 0.7360709595680237 Val F-1 0.002710843373493976
+
+{'aspect': ['Security'], 'learn_rate': [5e-05], 'sample strategy': [True], 'best_precision': [0.9786782752200406], 'best recall': [0.9665178571428571], 'best F-1': [0.9707939819059844]}
+              precision    recall  f1-score   support
+
+           0     0.9953    0.9700    0.9825       433
+           1     0.5000    0.8667    0.6341        15
+
+    accuracy                         0.9665       448
+   macro avg     0.7476    0.9183    0.8083       448
+weighted avg     0.9787    0.9665    0.9708       448
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 36/80: Security False 5e-05
+..................................................
+Train loss 0.11823988874879944 Train accuracy 0.9734100877192983
+Val loss 0.06379745154408738 Val F-1 0.9811242512670865
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 36/80: Security False 5e-05
+..................................................
+Train loss 0.047047539232982924 Train accuracy 0.9857456140350878
+Val loss 0.059555924109881746 Val F-1 0.9876934854649942
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 3/4
+----------
+Combination 36/80: Security False 5e-05
+..................................................
+Train loss 0.04075578252492338 Train accuracy 0.9868421052631579
+Val loss 0.05638281687919516 Val F-1 0.9900000000000001
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 4/4
+----------
+Combination 36/80: Security False 5e-05
+..................................................
+Train loss 0.02893284230052367 Train accuracy 0.9920504385964912
+Val loss 0.05718155039765407 Val F-1 0.9900000000000001
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 37/80: Security False 3e-05
+..................................................
+Train loss 0.14173325131266387 Train accuracy 0.9627192982456141
+Val loss 0.05662817895412445 Val F-1 0.9730004144218815
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 37/80: Security False 3e-05
+..................................................
+Train loss 0.0554859420954017 Train accuracy 0.9838267543859649
+Val loss 0.05145091000711546 Val F-1 0.9799157853505678
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 3/4
+----------
+Combination 37/80: Security False 3e-05
+..................................................
+Train loss 0.03551373889262833 Train accuracy 0.9906798245614035
+Val loss 0.04388122046366334 Val F-1 0.9902994791666666
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 4/4
+----------
+Combination 37/80: Security False 3e-05
+..................................................
+Train loss 0.019371653950529116 Train accuracy 0.9953399122807017
+Val loss 0.039863792480900884 Val F-1 0.9926160912789967
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 38/80: Security False 1e-05
+..................................................
+Train loss 0.16619465063456773 Train accuracy 0.9572368421052632
+Val loss 0.03811482060700655 Val F-1 0.9832612302951286
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 38/80: Security False 1e-05
+..................................................
+Train loss 0.05992831724028005 Train accuracy 0.9832785087719298
+Val loss 0.048677209191955624 Val F-1 0.985
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 3/4
+----------
+Combination 38/80: Security False 1e-05
+..................................................
+Train loss 0.036475582069231266 Train accuracy 0.9906798245614035
+Val loss 0.053565412033349274 Val F-1 0.982770879650992
+
+Epoch 4/4
+----------
+Combination 38/80: Security False 1e-05
+..................................................
+Train loss 0.03465506360787498 Train accuracy 0.9920504385964912
+Val loss 0.06832336615305394 Val F-1 0.9872925891140032
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 39/80: Security False 8e-06
+..................................................
+Train loss 0.15004990235371352 Train accuracy 0.9684758771929824
+Val loss 0.05668493251316249 Val F-1 0.9805989583333333
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 39/80: Security False 8e-06
+..................................................
+Train loss 0.051136187159276585 Train accuracy 0.9860197368421053
+Val loss 0.05167962114792317 Val F-1 0.9880804563949832
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 3/4
+----------
+Combination 39/80: Security False 8e-06
+..................................................
+Train loss 0.03963229685267147 Train accuracy 0.9898574561403509
+Val loss 0.06505156153463759 Val F-1 0.985843188450315
+
+Epoch 4/4
+----------
+Combination 39/80: Security False 8e-06
+..................................................
+Train loss 0.032670831509197966 Train accuracy 0.9925986842105263
+Val loss 0.05910222146310844 Val F-1 0.9832612302951286
+
+{'aspect': ['Security'], 'learn_rate': [5e-05], 'sample strategy': [False], 'best_precision': [0.9892228353058161], 'best recall': [0.9888392857142857], 'best F-1': [0.989001921215131]}
+              precision    recall  f1-score   support
+
+           0     0.9954    0.9931    0.9942       432
+           1     0.8235    0.8750    0.8485        16
+
+    accuracy                         0.9888       448
+   macro avg     0.9094    0.9340    0.9213       448
+weighted avg     0.9892    0.9888    0.9890       448
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 40/80: Security True 5e-05
+..................................................
+Train loss 0.667499978095293 Train accuracy 0.60546875
+Val loss 0.7057496690750122 Val F-1 0.7083470394736843
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 40/80: Security True 5e-05
+..................................................
+Train loss 0.2926620099460706 Train accuracy 0.9140625
+Val loss 0.753432679772377 Val F-1 0.8592279314888011
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 3/4
+----------
+Combination 40/80: Security True 5e-05
+..................................................
+Train loss 0.11792265914846212 Train accuracy 0.97265625
+Val loss 0.22366983599960805 Val F-1 0.9638738391336481
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 4/4
+----------
+Combination 40/80: Security True 5e-05
+..................................................
+Train loss 0.046380185362068005 Train accuracy 0.98828125
+Val loss 0.2891915198788047 Val F-1 0.9529205956683606
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 41/80: Security True 3e-05
+..................................................
+Train loss 0.6982980743050575 Train accuracy 0.48828125
+Val loss 0.6800083994865418 Val F-1 0.9083494053359047
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 41/80: Security True 3e-05
+..................................................
+Train loss 0.6776573583483696 Train accuracy 0.546875
+Val loss 0.700853681564331 Val F-1 0.6545345766628157
+
+Epoch 3/4
+----------
+Combination 41/80: Security True 3e-05
+..................................................
+Train loss 0.39125483203679323 Train accuracy 0.8828125
+Val loss 0.2310622301697731 Val F-1 0.9461070697885883
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 4/4
+----------
+Combination 41/80: Security True 3e-05
+..................................................
+Train loss 0.16397226275876164 Train accuracy 0.9453125
+Val loss 0.2621453991532326 Val F-1 0.9390724044985593
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 42/80: Security True 1e-05
+..................................................
+Train loss 0.6926139257848263 Train accuracy 0.51171875
+Val loss 0.6531933331489563 Val F-1 0.9441082802547771
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 42/80: Security True 1e-05
+..................................................
+Train loss 0.6795980967581272 Train accuracy 0.5703125
+Val loss 0.6587323570251464 Val F-1 0.932898356219082
+
+Epoch 3/4
+----------
+Combination 42/80: Security True 1e-05
+..................................................
+Train loss 0.6448765061795712 Train accuracy 0.765625
+Val loss 0.6627988529205322 Val F-1 0.7593221466306868
+
+Epoch 4/4
+----------
+Combination 42/80: Security True 1e-05
+..................................................
+Train loss 0.5815296806395054 Train accuracy 0.8515625
+Val loss 0.6573491883277893 Val F-1 0.7479040142201155
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 43/80: Security True 8e-06
+..................................................
+Train loss 0.6977374069392681 Train accuracy 0.4765625
+Val loss 0.7239762258529663 Val F-1 0.002710843373493976
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 43/80: Security True 8e-06
+..................................................
+Train loss 0.6958748362958431 Train accuracy 0.47265625
+Val loss 0.7316100788116455 Val F-1 0.002710843373493976
+
+Epoch 3/4
+----------
+Combination 43/80: Security True 8e-06
+..................................................
+Train loss 0.6941199004650116 Train accuracy 0.484375
+Val loss 0.7361705207824707 Val F-1 0.002710843373493976
+
+Epoch 4/4
+----------
+Combination 43/80: Security True 8e-06
+..................................................
+Train loss 0.691379189491272 Train accuracy 0.49609375
+Val loss 0.7346238994598389 Val F-1 0.0023671497584541066
+
+{'aspect': ['Security'], 'learn_rate': [3e-05], 'sample strategy': [True], 'best_precision': [0.9960609243697479], 'best recall': [0.9955357142857143], 'best F-1': [0.9956700562169313]}
+              precision    recall  f1-score   support
+
+           0     1.0000    0.9954    0.9977       433
+           1     0.8824    1.0000    0.9375        15
+
+    accuracy                         0.9955       448
+   macro avg     0.9412    0.9977    0.9676       448
+weighted avg     0.9961    0.9955    0.9957       448
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 44/80: Security False 5e-05
+..................................................
+Train loss 0.11586680235759877 Train accuracy 0.9646381578947368
+Val loss 0.07714444071054459 Val F-1 0.9785132180481017
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 44/80: Security False 5e-05
+..................................................
+Train loss 0.06974464281882863 Train accuracy 0.9832785087719298
+Val loss 0.0632487560249865 Val F-1 0.985
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 3/4
+----------
+Combination 44/80: Security False 5e-05
+..................................................
+Train loss 0.05113619341608954 Train accuracy 0.9887609649122807
+Val loss 0.06636490685399622 Val F-1 0.985
+
+Epoch 4/4
+----------
+Combination 44/80: Security False 5e-05
+..................................................
+Train loss 0.03207132743881901 Train accuracy 0.9917763157894737
+Val loss 0.06551578722894191 Val F-1 0.9832612302951286
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 45/80: Security False 3e-05
+..................................................
+Train loss 0.12228125219515182 Train accuracy 0.9684758771929824
+Val loss 0.06586023954674601 Val F-1 0.9790336134453783
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 45/80: Security False 3e-05
+..................................................
+Train loss 0.06086122913193162 Train accuracy 0.9854714912280702
+Val loss 0.07974709235131741 Val F-1 0.9778482738369898
+
+Epoch 3/4
+----------
+Combination 45/80: Security False 3e-05
+..................................................
+Train loss 0.03266138404101264 Train accuracy 0.9928728070175439
+Val loss 0.10447837876155973 Val F-1 0.977126660405206
+
+Epoch 4/4
+----------
+Combination 45/80: Security False 3e-05
+..................................................
+Train loss 0.020279782713802427 Train accuracy 0.9958881578947368
+Val loss 0.08747393494821154 Val F-1 0.9805989583333333
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForSequenceClassification: ['lm_head.dense.weight', 'roberta.pooler.dense.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'roberta.pooler.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/4
+----------
+Combination 46/80: Security False 1e-05
+..................................................
+Train loss 0.14988233936591105 Train accuracy 0.9616228070175439
+Val loss 0.09937713491730392 Val F-1 0.9785132180481017
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 2/4
+----------
+Combination 46/80: Security False 1e-05
+..................................................
+Train loss 0.05773767444183601 Train accuracy 0.9849232456140351
+Val loss 0.07660342046292498 Val F-1 0.9811242512670865
+
+the val F-1 is surpass the best F-1 on this fold, model has been saved 
+
+Epoch 3/4
+----------
+Combination 46/80: Security False 1e-05
+..................................................
